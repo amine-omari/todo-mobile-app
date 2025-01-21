@@ -24,6 +24,8 @@ const styles = StyleSheet.create({
   square: {
     width: 24,
     height: 24,
+    backgroundColor: "#55BCF6",
+    opacity: 0.4,
   },
   text: {},
   circular: {},
