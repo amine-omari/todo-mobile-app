@@ -12,7 +12,7 @@ export default function App() {
 
         <View style={styles.items}>
           {/* This is Where the Tasks will go! */}
-          <Task />
+          <Task text="task 1" />
         </View>
       </View>
     </View>
