@@ -37,7 +37,9 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     marginRight: 15,
   },
-  text: {},
+  text: {
+    maxWidth: "80%",
+  },
   circular: {},
 });
 
