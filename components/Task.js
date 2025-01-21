@@ -6,7 +6,6 @@ const Task = ({ text }) => {
     <View style={styles.item}>
       <View style={styles.itemLeft}>
         <TouchableOpacity style={styles.square}></TouchableOpacity>
-
         <Text style={styles.text}>{text}</Text>
       </View>
 
@@ -22,7 +21,10 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   itemLeft: {},
-  square: {},
+  square: {
+    width: 24,
+    height: 24,
+  },
   text: {},
   circular: {},
 });
