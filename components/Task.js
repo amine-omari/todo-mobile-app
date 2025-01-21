@@ -34,6 +34,8 @@ const styles = StyleSheet.create({
     height: 24,
     backgroundColor: "#55BCF6",
     opacity: 0.4,
+    borderRadius: 5,
+    marginRight: 15,
   },
   text: {},
   circular: {},
