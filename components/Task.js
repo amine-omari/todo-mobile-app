@@ -40,7 +40,13 @@ const styles = StyleSheet.create({
   text: {
     maxWidth: "80%",
   },
-  circular: {},
+  circular: {
+    width: 12,
+    height: 12,
+    borderColor: "#55BCF6",
+    borderWidth: 2,
+    borderRadius: 5,
+  },
 });
 
 export default Task;
