@@ -9,6 +9,8 @@ const Task = ({ text }) => {
 
         <Text style={styles.text}>{text}</Text>
       </View>
+
+      <View style={styles.circular}></View>
     </View>
   );
 };
