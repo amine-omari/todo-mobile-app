@@ -20,7 +20,11 @@ const styles = StyleSheet.create({
     padding: 15,
     borderRadius: 10,
   },
-  itemLeft: {},
+  itemLeft: {
+    flexDirection: "row",
+    alignItems: "center",
+    flexWrap: "wrap",
+  },
   square: {
     width: 24,
     height: 24,
